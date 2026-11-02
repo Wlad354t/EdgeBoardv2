@@ -29,7 +29,7 @@ import pandas as pd
 
 NFLVERSE_URL = "https://github.com/nflverse/nfldata/raw/master/data/games.csv"
 SC_URL = "https://github.com/nflverse/nfldata/raw/master/data/sc_lines.csv"
-DATA_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = Path(__file__).resolve().parent
 NFL_CACHE = DATA_DIR / "nfl_games.csv"
 SC_CACHE = DATA_DIR / "nfl_sc_lines.csv"   # Westgate SuperContest lines (set mid-week), 2013-2020
 
